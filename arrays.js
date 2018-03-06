@@ -12,8 +12,8 @@ var myArray = [1,2,3];
 
 
 function addElementToBeginningOfArray(myArray,x){
-  myArray.unshift(`x`);
-  var myNewArray = myArray;
+  
+  var myNewArray = myArray;myArray.unshift(`x`);
   return myNewArray;
 }
 
