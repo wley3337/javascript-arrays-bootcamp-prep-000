@@ -26,9 +26,11 @@ function addElementToEndOfArray(myArray, z){
 }
 
 function destructivelyAddElemntToEndOfArray(myArray, i){
-  
+  myArray[2] = "i";
+  return myArray;
 }
 
 function accessElementInArray(myArray, i){
+  return myArray[i];
   
 }
