@@ -23,8 +23,8 @@ function addElementToEndOfArray(myArray, z){
   return myNewEndArray;
 }
 
-function destructivelyAddElemntToEndOfArray(myArray, i){
-  myArray.push("i");
+function destructivelyAddElementToEndOfArray(myArray, i){
+  myArray.push(i);
   return myArray;
 }
 
