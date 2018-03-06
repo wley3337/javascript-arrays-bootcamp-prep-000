@@ -24,7 +24,7 @@ function addElementToEndOfArray(myArray, z){
 }
 
 function destructivelyAddElemntToEndOfArray(myArray, i){
-  myArray.push(i);
+  myArray.push("i");
   return myArray;
 }
 
