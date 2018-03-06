@@ -1,6 +1,7 @@
 
 //var grilledCheeseIngredients = ['bread', 'mild cheese', 'sharp cheese', 'butter', 'tomato', 'garlic'];
 //var tomatoSauceIngredients = ['tomato', 'garlic', 'olive oil', 'basil', 'oregano'];
+
 var chocolatBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
 var myArray = [1,2,3];
@@ -18,7 +19,7 @@ function destructivelyAddElementToEndOfArray(myArray,y){
   return myArray;
 }
 
-function addElementtoEndOfArray(myArray, z){
+function addElementToEndOfArray(myArray, z){
   var myNewEndArray=myArray;
   myNewEndArray.push("z");
   return myNewEndArray;
