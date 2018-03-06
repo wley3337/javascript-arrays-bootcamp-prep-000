@@ -2,7 +2,7 @@
 //var grilledCheeseIngredients = ['bread', 'mild cheese', 'sharp cheese', 'butter', 'tomato', 'garlic'];
 //var tomatoSauceIngredients = ['tomato', 'garlic', 'olive oil', 'basil', 'oregano'];
 
-var chocolatBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
+var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
 var myArray = [1,2,3];
 
