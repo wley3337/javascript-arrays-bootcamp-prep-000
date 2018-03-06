@@ -15,13 +15,13 @@ function addElementToBeginningOfArray(myArray,x){
 
 
 function destructivelyAddElementToBeginningOfArray(myArray,y){
-  myArray[0] = `y`;
+  myArray[0] = y;
   return myArray;
 }
 
 function addElementToEndOfArray(myArray, z){
   var myNewEndArray=myArray;
-  myNewEndArray.push("z");
+  myNewEndArray.push(z);
   return myNewEndArray;
 }
 
