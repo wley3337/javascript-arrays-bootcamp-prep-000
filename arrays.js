@@ -19,12 +19,12 @@ function destructivelyAddElementToBeginningOfArray(myArray,y){
 }
 
 function addElementToEndOfArray(myArray, z){
-  var myNewEndArray=myArray.push(z);
+  var myNewEndArray= [...myArray, z];
   return myNewEndArray;
 }
 
 function destructivelyAddElemntToEndOfArray(myArray, i){
-  myArray[2] = "i";
+  myArray.push(i);
   return myArray;
 }
 
