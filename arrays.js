@@ -8,7 +8,7 @@ var myArray = [1,2,3];
 
 
 function addElementToBeginningOfArray(myArray,x){
-   var myNewArray = ["x",...myArray];
+   var myNewArray = [x,...myArray];
   return myNewArray;
 }
 
