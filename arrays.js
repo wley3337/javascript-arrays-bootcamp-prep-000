@@ -7,5 +7,18 @@ var ingredient6 = "garlic";
 var grilledCheeseIngredients = ['bread', 'mild cheese', 'sharp cheese', 'butter', 'tomato', 'garlic'];
 var tomatoSauceIngredients = ['tomato', 'garlic', 'olive oil', 'basil', 'oregano'];
 var chocolatBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
-var cities = ["New York", "San Francisco"];
-["Philadelphia", ...cities]
+
+var myArray = [1,2,3];
+
+
+function addElementToBeginningOfArray(myArray,x){
+  myArray.unshift(`x`);
+  var myNewArray = myArray;
+  return myNewArray;
+}
+
+
+function destructivelyAddElementToEndOfArray(myArray,y){
+  myArray[0] = `y`;
+  return myArray;
+}
