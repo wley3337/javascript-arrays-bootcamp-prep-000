@@ -14,7 +14,7 @@ function addElementToBeginningOfArray(myArray,x){
 }
 
 
-function destructivelyAddElementToEndOfArray(myArray,y){
+function destructivelyAddElementToBeginningOfArray(myArray,y){
   myArray[0] = `y`;
   return myArray;
 }
