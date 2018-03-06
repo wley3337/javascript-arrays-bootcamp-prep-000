@@ -9,7 +9,7 @@ var myArray = [1,2,3];
 
 function addElementToBeginningOfArray(myArray,x){
   var myNewArray = myArray;
-  myNewArray.unshift("x");
+  myNewArray.unshift(x);
   return myNewArray;
 }
 
